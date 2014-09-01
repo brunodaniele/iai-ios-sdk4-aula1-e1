@@ -21,6 +21,12 @@
 		DD806E5E19B52C3500C9AB8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD806E4019B52C3500C9AB8F /* UIKit.framework */; };
 		DD806E6619B52C3500C9AB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD806E6419B52C3500C9AB8F /* InfoPlist.strings */; };
 		DD806E6819B52C3500C9AB8F /* CelulaCustomizadaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD806E6719B52C3500C9AB8F /* CelulaCustomizadaTests.m */; };
+		DD806E7219B52D0500C9AB8F /* listaCDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD806E7119B52D0500C9AB8F /* listaCDs.plist */; };
+		DD806E7719B531BD00C9AB8F /* blackice_acdc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD806E7319B531BD00C9AB8F /* blackice_acdc.jpg */; };
+		DD806E7819B531BD00C9AB8F /* citadelband_loneydear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD806E7419B531BD00C9AB8F /* citadelband_loneydear.jpg */; };
+		DD806E7919B531BD00C9AB8F /* greatesthits_queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD806E7519B531BD00C9AB8F /* greatesthits_queen.jpg */; };
+		DD806E7A19B531BD00C9AB8F /* parachutes_coldplay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD806E7619B531BD00C9AB8F /* parachutes_coldplay.jpg */; };
+		DD806E7E19B53A3B00C9AB8F /* CelulaCDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD806E7D19B53A3B00C9AB8F /* CelulaCDTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		DD806E6319B52C3500C9AB8F /* CelulaCustomizadaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CelulaCustomizadaTests-Info.plist"; sourceTree = "<group>"; };
 		DD806E6519B52C3500C9AB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD806E6719B52C3500C9AB8F /* CelulaCustomizadaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CelulaCustomizadaTests.m; sourceTree = "<group>"; };
+		DD806E7119B52D0500C9AB8F /* listaCDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = listaCDs.plist; path = ../listaCDs.plist; sourceTree = "<group>"; };
+		DD806E7319B531BD00C9AB8F /* blackice_acdc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackice_acdc.jpg; sourceTree = "<group>"; };
+		DD806E7419B531BD00C9AB8F /* citadelband_loneydear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = citadelband_loneydear.jpg; sourceTree = "<group>"; };
+		DD806E7519B531BD00C9AB8F /* greatesthits_queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatesthits_queen.jpg; sourceTree = "<group>"; };
+		DD806E7619B531BD00C9AB8F /* parachutes_coldplay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parachutes_coldplay.jpg; sourceTree = "<group>"; };
+		DD806E7C19B53A3B00C9AB8F /* CelulaCDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CelulaCDTableViewCell.h; path = ../CelulaCDTableViewCell.h; sourceTree = "<group>"; };
+		DD806E7D19B53A3B00C9AB8F /* CelulaCDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CelulaCDTableViewCell.m; path = ../CelulaCDTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,7 @@
 		DD806E3019B52C3500C9AB8F = {
 			isa = PBXGroup;
 			children = (
+				DD806E7B19B531C200C9AB8F /* Resources Covers */,
 				DD806E4219B52C3500C9AB8F /* CelulaCustomizada */,
 				DD806E6119B52C3500C9AB8F /* CelulaCustomizadaTests */,
 				DD806E3B19B52C3500C9AB8F /* Frameworks */,
@@ -112,6 +126,8 @@
 		DD806E4219B52C3500C9AB8F /* CelulaCustomizada */ = {
 			isa = PBXGroup;
 			children = (
+				DD806E7C19B53A3B00C9AB8F /* CelulaCDTableViewCell.h */,
+				DD806E7D19B53A3B00C9AB8F /* CelulaCDTableViewCell.m */,
 				DD806E4B19B52C3500C9AB8F /* AppDelegate.h */,
 				DD806E4C19B52C3500C9AB8F /* AppDelegate.m */,
 				DD806E4E19B52C3500C9AB8F /* Main.storyboard */,
@@ -126,6 +142,7 @@
 		DD806E4319B52C3500C9AB8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD806E7119B52D0500C9AB8F /* listaCDs.plist */,
 				DD806E4419B52C3500C9AB8F /* CelulaCustomizada-Info.plist */,
 				DD806E4519B52C3500C9AB8F /* InfoPlist.strings */,
 				DD806E4819B52C3500C9AB8F /* main.m */,
@@ -150,6 +167,17 @@
 				DD806E6419B52C3500C9AB8F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD806E7B19B531C200C9AB8F /* Resources Covers */ = {
+			isa = PBXGroup;
+			children = (
+				DD806E7319B531BD00C9AB8F /* blackice_acdc.jpg */,
+				DD806E7419B531BD00C9AB8F /* citadelband_loneydear.jpg */,
+				DD806E7519B531BD00C9AB8F /* greatesthits_queen.jpg */,
+				DD806E7619B531BD00C9AB8F /* parachutes_coldplay.jpg */,
+			);
+			name = "Resources Covers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +257,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD806E5519B52C3500C9AB8F /* Images.xcassets in Resources */,
+				DD806E7819B531BD00C9AB8F /* citadelband_loneydear.jpg in Resources */,
+				DD806E7719B531BD00C9AB8F /* blackice_acdc.jpg in Resources */,
+				DD806E7919B531BD00C9AB8F /* greatesthits_queen.jpg in Resources */,
 				DD806E4719B52C3500C9AB8F /* InfoPlist.strings in Resources */,
+				DD806E7A19B531BD00C9AB8F /* parachutes_coldplay.jpg in Resources */,
 				DD806E5019B52C3500C9AB8F /* Main.storyboard in Resources */,
+				DD806E7219B52D0500C9AB8F /* listaCDs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +284,7 @@
 			files = (
 				DD806E5319B52C3500C9AB8F /* ViewController.m in Sources */,
 				DD806E4D19B52C3500C9AB8F /* AppDelegate.m in Sources */,
+				DD806E7E19B53A3B00C9AB8F /* CelulaCDTableViewCell.m in Sources */,
 				DD806E4919B52C3500C9AB8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
