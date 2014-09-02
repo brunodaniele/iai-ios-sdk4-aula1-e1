@@ -37,8 +37,18 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    CelulaCDTableViewCell *celula
+    CelulaCDTableViewCell *celula = [tableView dequeueReusableCellWithIdentifier:@"celulaCD"];
     
+    //preenchendo a celula
+    //NSDictionary *dict = [self.listaCds objectAtIndex:indexPath.row];
+    NSDictionary *dict = self.listaCds[indexPath.row];
+    celula.lblArtista.text = dict[@"artista"];
+    celula.lblAlbum.text = dict[@"album"];
+    celula.lblAno.text = dict[@"ano"];
+    celula.lblPreco.text = dict[@"preco"];
+    celula.imgCapa.image = [UIImage imageNamed:dict[@"capa"]];
+    
+    return celula;
     
 }
 
