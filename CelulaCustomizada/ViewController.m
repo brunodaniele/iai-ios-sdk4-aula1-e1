@@ -62,7 +62,15 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    NSLog(@"Celula Clicada");
 }
+
+//Temos que tomar cuidado ao sobescrever um metodo da classe superior
+//Sempre quando tentarmos sobrescrever o metodo devemos antes de qualquer coisa, acionar o mesmo metodo presente na classe superior
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [super touchesBegan:touches withEvent:event];
+    NSLog(@"Captando toques dentro da celula");
+}
+
 
 @end
